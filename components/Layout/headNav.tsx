@@ -15,7 +15,7 @@ export default function Head() {
     setNotiToggle(!notiToggle);
   };
   const avaClickHandler = () => {
-    if(notiToggle) {
+    if (notiToggle) {
       setNotiToggle(!notiToggle);
     }
     setAvaToggle(!avaToggle);
